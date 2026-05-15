@@ -50,11 +50,90 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "min_clearance": 0.4
         }
       },
-      "diff_pair_dimensions": [],
-      "drc_exclusions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
+      "drc_exclusions": [
+        [
+          "silk_over_copper|102000000|112600000|9f2c9438-471a-41b1-9c1d-1a12fa59c572|e8edb1f0-ab8a-4a6b-b543-4975ae913426",
+          ""
+        ],
+        [
+          "silk_over_copper|102000000|78600000|7bf9b437-0fac-4a92-990d-4792ba43fba9|23dbd809-70a7-42c7-b5ec-ee830e264ea8",
+          ""
+        ],
+        [
+          "silk_over_copper|102000000|95600000|539dafd0-6e2c-47b6-bc63-946842f1341a|782beec2-d501-4051-b7eb-ebc383abe9e5",
+          ""
+        ],
+        [
+          "silk_over_copper|120000000|112600000|0f01ad2e-ffc1-4c9a-abe0-349f695f610f|daedde81-d789-4989-8e07-c742e9ac503d",
+          ""
+        ],
+        [
+          "silk_over_copper|120000000|78600000|5b1dc23b-f6be-4802-8a5b-b83231ca06fc|ad4f37b0-e241-4c3b-8fc7-dd20b3724ce2",
+          ""
+        ],
+        [
+          "silk_over_copper|120000000|95600000|cdcde0cf-4a66-4a85-ae64-0b72539dfb1d|e234ef25-9dbb-4221-bbb3-9ef336e9b89d",
+          ""
+        ],
+        [
+          "silk_over_copper|138000000|112600000|5059103e-63af-4c4d-b2b8-2bc058d54bb0|2441a9c1-310c-4b04-bf7f-e56352effae8",
+          ""
+        ],
+        [
+          "silk_over_copper|138000000|129600000|a61b3045-f1fa-4f57-a732-4f9fd7b17e2e|24698bb0-3599-4031-b1e3-293d443b4166",
+          ""
+        ],
+        [
+          "silk_over_copper|138000000|78600000|1d95c812-33bf-41cd-be80-a98f5eb1c1f3|d5257b00-f954-44d8-964c-60918cfd0d75",
+          ""
+        ],
+        [
+          "silk_over_copper|138000000|95600000|51adddad-a760-4f8b-8fff-7a13d14093ff|cfa2b6c1-8847-4e69-aea8-e40b0446f580",
+          ""
+        ],
+        [
+          "silk_over_copper|156000000|112600000|4623ff4d-adc8-4269-bdc5-28ee4c686b3d|046c30a4-2c51-4094-81e6-e42aacf65ee4",
+          ""
+        ],
+        [
+          "silk_over_copper|156000000|129600000|40322ca6-9129-48a3-a590-79446a61f15c|0ee0265c-b2f1-4096-8055-ed6c8bfe36fd",
+          ""
+        ],
+        [
+          "silk_over_copper|156000000|78600000|ee3a9359-a56e-443e-9521-af3ad07a125a|5fd52c52-fb83-4fab-8a19-473cbf56d59d",
+          ""
+        ],
+        [
+          "silk_over_copper|156000000|95600000|36be7e88-f016-4500-8be0-738899527cbe|77feaec0-a196-4310-8a64-e18a46553d9f",
+          ""
+        ],
+        [
+          "silk_over_copper|174000000|112600000|1aacc7da-eace-4915-8bb7-2d1254bfa7d3|10a628ab-734e-4b78-8886-3d9868ab1da2",
+          ""
+        ],
+        [
+          "silk_over_copper|174000000|129600000|1f1fa67c-d901-4c3e-a418-366c263f9ba2|88e77d16-63a6-43dc-a967-3b8df9795b7a",
+          ""
+        ],
+        [
+          "silk_over_copper|174000000|78600000|bb89836c-2dfe-4770-8ed3-5690ea1f590a|d7fdcb72-864b-46dc-aa80-b34d56720023",
+          ""
+        ],
+        [
+          "silk_over_copper|174000000|95600000|0272569f-2ef5-4a89-b05a-18af707d3069|7f166c37-8471-45ea-ab45-ba990fbde7d8",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -126,7 +205,7 @@
         "max_error": 0.005,
         "min_clearance": 0.0,
         "min_connection": 0.0,
-        "min_copper_edge_clearance": 0.5,
+        "min_copper_edge_clearance": 0.4,
         "min_groove_width": 0.0,
         "min_hole_clearance": 0.25,
         "min_hole_to_hole": 0.25,
@@ -187,7 +266,9 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
+      "track_widths": [
+        0.0
+      ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -214,7 +295,12 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        }
+      ],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -479,7 +565,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.2,
+        "clearance": 0.15,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
